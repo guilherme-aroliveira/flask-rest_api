@@ -37,7 +37,7 @@ To verify the added product:
 curl http://localhost:5000/products/145
 ```
 
-> Another way to use this application is to run the Python server and use the Postman app to execute the CRUD operations on the REST API.
+Another way to use this application is to run the Python server and use the Postman app to execute the CRUD operations on the REST API.
 
 ### License
 
