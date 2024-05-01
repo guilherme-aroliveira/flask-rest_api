@@ -1,6 +1,6 @@
 # Flask - REST API Project
 
-[![License](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/license/apache-2-0)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 
 This is a project of the course "Application Development using Microservices and Serverless" by IBM as part of IBM DevOps Certificate.
 
@@ -37,7 +37,7 @@ To verify the added product:
 curl http://localhost:5000/products/145
 ```
 
-Another way to use this application is to run the Python server and use the Postman app to execute the CRUD operations on the REST API.
+> Another way to use this application is to run the Python server and use the Postman app to execute the CRUD operations on the REST API.
 
 ### License
 
