@@ -14,27 +14,27 @@ The application executes CRUD operations (Create, Retrieve, Update, and Delete),
 To execute this application install the necessary packages to run it:
 
 ```python
-python3 -m pip install flask flask_cors
+$ python3 -m pip install flask flask_cors
 
 # run the python server
-python3 products.py
+$ python3 products.py
 ```
 
 Use curl to serve the REST API endpoints:
-```Bash
-curl http://localhost:5000/products
+```bash
+$ curl http://localhost:5000/products
 ```
 
 To add a product (POST request) curl can also be used:
-```Bash
-curl -X POST -H "Content-Type: application/json" \
+```bash
+$ curl -X POST -H "Content-Type: application/json" \
     -d '{"id": 145, "name": "Pen", "price": 2.5}' \
     http://localhost:5000/products
 ```
 
 To verify the added product:
-```Bash
-curl http://localhost:5000/products/145
+```bash
+$ curl http://localhost:5000/products/145
 ```
 
 Another way to use this application is to run the Python server and use the Postman app to execute the CRUD operations on the REST API.
